@@ -1,15 +1,15 @@
 {
-  "name": "yami-vip-bot",
+  "name": "yami-telegram-wa-bridge",
   "version": "1.0.0",
+  "description": "HELM MD CONTROLLED BY TELEGRAM",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "pino": "latest",
-    "readline": "latest",
-    "fs": "latest"
+    "@whiskeysockets/baileys": "^6.6.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "pino": "^8.19.0",
+    "readline": "^1.1.0"
   }
 }
-
